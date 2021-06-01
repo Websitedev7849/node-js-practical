@@ -21,8 +21,12 @@ function form() {
                 let birthMonth = parseInt(dob[1]);
                 let birthYear = parseInt(dob[2]);
 
-                console.log(birthDay, birthMonth, birthYear);
-            
+                let currentYear = new Date().getUTCFullYear();
+
+                let age = currentYear - birthYear;
+
+                console.log(`Hi ${firstName} ${lastName} you are ${age} years old`);
+
             });
         
         });
