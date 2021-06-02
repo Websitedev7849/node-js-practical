@@ -1,5 +1,4 @@
-// Create a Node.js Application that uses user defined module circle.js which exports the functions are () and circumference () and display the details on
-console.
+// Create a Node.js Application that uses user defined module circle.js which exports the functions are () and circumference () and display the details on console.
 
 const {area, circumference} = require('./circle');
 
