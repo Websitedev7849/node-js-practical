@@ -1,3 +1,4 @@
+// Create a Node.js Application to download jpg image from the Server.
 const http = require('http');
 const fs = require('fs');
 
