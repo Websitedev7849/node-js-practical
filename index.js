@@ -10,11 +10,11 @@ function form() {
 
    
     
-    rl.question("please enter a first name : " , firstName => {
+    rl.question("please enter your first name : " , firstName => {
 
-        rl.question("please enter a last name : " , lastName => {
+        rl.question("please enter your last name : " , lastName => {
 
-            rl.question("please enter a date : " , dob => {
+            rl.question("please enter your date of birth: " , dob => {
 
                 dob = dob.split('/');
                 let birthDay = parseInt(dob[0]);
