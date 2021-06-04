@@ -15,7 +15,7 @@ const req = http.request( url , res => {
         writeStream.write(d);
     });
 
-    console.log(`Image is saved to ${__dirname + path}`);
+    console.log(`Image is saved to ${path}`);
 
 });
 
